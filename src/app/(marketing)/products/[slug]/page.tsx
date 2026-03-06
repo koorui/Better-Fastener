@@ -6,6 +6,8 @@ import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 
 import { getProductBySlug } from "@/lib/db/queries";
 
+export const dynamic = "force-dynamic";
+
 async function getProduct(slug: string) {
   return getProductBySlug(slug);
 }

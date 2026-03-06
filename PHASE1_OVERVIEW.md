@@ -410,3 +410,25 @@ npm run db:seed:admin
 - `IMPLEMENTATION_PLAN.md` 更偏 **设计与分步实施**  
 - `PHASE1_OVERVIEW.md` 更偏 **现状总览与测试清单**。
 
+
+
+https://better-fastener.vercel.app/admin
+admin@deeplumen.com
+deeplumen123
+
+https://better-fastener.vercel.app/admin
+admin@deeplumen.com
+deeplumen123
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npm run db:migrate && npm run db:seed && npm run db:seed:admin && npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install"
+}
+vercel搭建
+
+
+psql "postgresql://neondb_owner:npg_X4zfrChUuow1@ep-broad-cake-aik47p8g-p
+ooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require"
+数据库

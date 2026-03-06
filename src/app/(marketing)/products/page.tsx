@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { createPageMetadata } from "@/lib/seo/metadata";
 
+/** 强制动态渲染，避免 Vercel 构建时静态预渲染导致新增商品不显示 */
+export const dynamic = "force-dynamic";
+
 export const metadata = createPageMetadata({
   title: "产品中心",
   description: "Better Fasteners 产品目录 - 汽车紧固件、CNC零件、螺丝",

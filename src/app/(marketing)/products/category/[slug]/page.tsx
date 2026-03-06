@@ -6,6 +6,8 @@ import { BreadcrumbJsonLd } from "@/components/JsonLd";
 
 import { getCategoryBySlug } from "@/lib/db/queries";
 
+export const dynamic = "force-dynamic";
+
 async function getCategoryData(slug: string) {
   return getCategoryBySlug(slug);
 }
