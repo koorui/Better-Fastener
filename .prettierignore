@@ -1,0 +1,14 @@
+# Dependencies
+node_modules
+.next
+out
+build
+
+# Generated
+next-env.d.ts
+*.min.js
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
